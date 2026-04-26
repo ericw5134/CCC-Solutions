@@ -1,0 +1,46 @@
+# ==== Project specific ====
+api_keys.yaml
+
+# big / generated data & models
+data/
+output/
+LMM_test/
+SOTA/
+
+# archives / scripts you don’t want in git
+data.zip
+
+# OS junk
+.DS_Store
+
+# ==== Python basics ====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Test / coverage caches
+.pytest_cache/
+.coverage
+.coverage.*
+.hypothesis/
+
+# Build / packaging (only if you ever package)
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs / editors
+.idea/
+.vscode/
